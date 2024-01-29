@@ -1,0 +1,23 @@
+/* Add these styles to your CSS or use a stylesheet */
+.ward-container {
+    margin-bottom: 20px;
+  }
+  
+  .beds-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bed-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .bed-card:hover {
+    background-color: yellow; /* Change the background color on hover */
+    cursor: pointer;
+  }
+  
